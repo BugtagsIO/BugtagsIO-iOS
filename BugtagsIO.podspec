@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "BugtagsIO"
   s.version      = "1.3.0"
-  s.summary      = "Bug reporting for mobile apps, improve your app anytime, anywhere. Learn more at http://bugtags.com."
-  s.homepage     = "http://bugtags.io/"
+  s.summary      = "Bug reporting for mobile apps, improve your app anytime, anywhere. Learn more at https://www.bugtags.io."
+  s.homepage     = "https://www.bugtags.io"
   s.license      = {
       :type => 'Commercial',
       :text => <<-LICENSE
@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.resources           = 'Bugtags.bundle'
   s.preserve_paths      = 'Bugtags.framework/*', 'Bugtags.bundle'
   s.frameworks          = 'UIKit', 'ImageIO', 'AVFoundation', 'SystemConfiguration', 'CoreLocation', 'Security', 'CFNetwork', 'Bugtags'
-  s.xcconfig            =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Bugtags/"', 'OTHER_LDFLAGS' => '-ObjC' }
+  s.xcconfig            =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/BugtagsIO/"', 'OTHER_LDFLAGS' => '-ObjC' }
   s.requires_arc        = true
 end
