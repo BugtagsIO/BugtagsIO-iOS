@@ -44,7 +44,7 @@ fi
 fi
 
 # Check internet connection
-if [ ! "`ping -c 1 api.bugtags.io`" ]; then
+if [ ! "`ping -c 1 work.bugtags.io`" ]; then
 exit 0
 fi
 
@@ -82,7 +82,7 @@ DSYM_PATH_ZIP="${TEMP_DIRECTORY}/$DWARF_DSYM_FILE_NAME.zip"
 
 # Upload dSYM
 echo "Bugtags: Uploading dSYM file..."
-ENDPOINT="https://api.bugtags.io/api/apps/symbols/upload"
+ENDPOINT="https://work.bugtags.io/api/apps/symbols/upload"
 PLISTFILE="${INFOPLIST_FILE}"
 if [[ "$PLISTFILE" != /* ]]; then
 PLISTFILE="${PROJECT_DIR}/${PLISTFILE}"
