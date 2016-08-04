@@ -4,13 +4,13 @@ In-App Bug reporting, crash reporting and all context data will be automatically
 
 ## Key Features
 
-- In-App Bug Reporting
+- In-App Bug Reporter
 
-    Bug reporting directly from within your app, all context data will be attached automatically, all these only take less than 5 seconds.
+    Report bugs directly from within your app, all context data will be attached automatically, all these only take less than 5 seconds.
 
-- Crash Reporting Automatically
+- Automatic Crash Reporter
 
-    Crash reporting automatically with all context data, stacktrace will be symbolicated intelligently, all these will help you to fix crash quickly.
+    Report crashes automatically with all context data, stacktrace will be symbolicated intelligently, all these will help you to fix crash quickly.
 
 - In-App User Feedback
 
