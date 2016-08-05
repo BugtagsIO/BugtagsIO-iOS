@@ -1,5 +1,7 @@
 # Bugtags Bug Reporter for iOS
 
+Bugtags is The Simplest and Most Efficient Tool for Mobile App Testing.
+
 In-App Bug reporting, crash reporting and all context data will be automatically uploaded to the Bugtags Cloud. With all this data, Bug can be fixed efficiently.
 
 ## Key Features
