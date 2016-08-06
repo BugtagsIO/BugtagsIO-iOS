@@ -10,7 +10,7 @@
 #define Bugtags_BTGConstants_h
 
 /**
- *  The event used to invocate the Bugtags form
+ * The event used to invocate the Bugtags form
  */
 typedef NS_ENUM(NSInteger, BTGInvocationEvent) {
     

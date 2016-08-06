@@ -15,77 +15,77 @@
 #import "BTGConstants.h"
 
 /**
- *  The options used to customize the Bugtags initialization
+ * The options used to customize the Bugtags initialization
  */
 @interface BugtagsOptions : NSObject <NSCopying>
 
 /**
- *  Set whether to track the crashes in the app
- *  Default = YES except debug whth USB connected
+ * Set whether to track the crashes in the app
+ * Default = YES except debug whth USB connected
  */
 @property(nonatomic, assign) BOOL trackingCrashes;
 
 /**
- *  Set whether to track the user's steps while using the app
- *  Default = YES
+ * Set whether to track the user's steps while using the app
+ * Default = YES
  */
 @property(nonatomic, assign) BOOL trackingUserSteps;
 
 /**
- *  Set whether to track the console logs while using the app
- *  Default = YES
+ * Set whether to track the console logs while using the app
+ * Default = YES
  */
 @property(nonatomic, assign) BOOL trackingConsoleLog;
 
 /**
- *  Set whether to track the user's location while using the app
- *  Default = YES
+ * Set whether to track the user's location while using the app
+ * Default = YES
  */
 @property(nonatomic, assign) BOOL trackingUserLocation;
 
 /**
- *  Set whether to track the network requests while using the app, support HTTP/HTTPS
- *  Default = NO
+ * Set whether to track the network requests while using the app, support HTTP/HTTPS
+ * Default = NO
  */
 @property(nonatomic, assign) BOOL trackingNetwork;
 
 /**
- *  Set URLs or IPs for network tracking, combine multiple with '|', support Regular Expression
- *  e.g., you can set 'bugtags.io|sample.io' to track the network request's url which contains 'bugtags.io' or 'sample.io'
- *  Track all network requests if set to nil
- *  Default = nil
+ * Set URLs or IPs for network tracking, combine multiple with '|', support Regular Expression
+ * e.g., you can set 'bugtags.io|sample.io' to track the network request's url which contains 'bugtags.io' or 'sample.io'
+ * Track all network requests if set to nil
+ * Default = nil
  */
 @property(nonatomic, copy) NSString *trackingNetworkURLFilter;
 
 /**
- *  Set whether to take a screenshot when the crash occurred
- *  Default = NO
+ * Set whether to take a screenshot when the crash occurred
+ * Default = NO
  */
 @property(nonatomic, assign) BOOL crashWithScreenshot;
 
 /**
- *  Set whether to ignore the SIGPIPE crashes
- *  Default = NO
+ * Set whether to ignore the SIGPIPE crashes
+ * Default = NO
  */
 @property(nonatomic, assign) BOOL ignorePIPESignalCrash;
 
 /**
- *  Set whether to allow user to sign in Bugtags SDK
- *  Default = YES
+ * Set whether to allow user to sign in Bugtags SDK
+ * Default = YES
  */
 @property(nonatomic, assign) BOOL enableUserSignIn;
 
 /**
- *  Set the app version
- *  Get the version automatically if set to nil
- *  Default = nil
+ * Set the app version
+ * Get the version automatically if set to nil
+ * Default = nil
  */
 @property(nonatomic, copy) NSString *version;
 
 /**
- *  Set the app build
- *  Get the build automatically if set to nil
- *  Default = nil
+ * Set the app build
+ * Get the build automatically if set to nil
+ * Default = nil
  */
 @property(nonatomic, copy) NSString *build;
 
@@ -163,16 +163,16 @@ FOUNDATION_EXPORT void BTGLog(NSString *format, ...) NS_FORMAT_FUNCTION(1, 2);
 + (void)setTrackingConsoleLog:(BOOL)trackingConsoleLog;
 
 /**
-* Set whether to track the user's location while using the app
-* @param trackingUserLocation - Default = YES
-* @return none
-*/
+ * Set whether to track the user's location while using the app
+ * @param trackingUserLocation - Default = YES
+ * @return none
+ */
 + (void)setTrackingUserLocation:(BOOL)trackingUserLocation;
 
 /**
- *  Set whether to track the network requests while using the app, support HTTP/HTTPS
- *  @param trackingNetwork - Default = NO
- *  @return none
+ * Set whether to track the network requests while using the app, support HTTP/HTTPS
+ * @param trackingNetwork - Default = NO
+ * @return none
  */
 + (void)setTrackingNetwork:(BOOL)trackingNetwork;
 
