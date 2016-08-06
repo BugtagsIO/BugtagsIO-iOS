@@ -76,14 +76,14 @@
 @property(nonatomic, assign) BOOL enableUserSignIn;
 
 /**
- *  Set the app's version
+ *  Set the app version
  *  Get the version automatically if set to nil
  *  Default = nil
  */
 @property(nonatomic, copy) NSString *version;
 
 /**
- *  Set the app's build
+ *  Set the app build
  *  Get the build automatically if set to nil
  *  Default = nil
  */
