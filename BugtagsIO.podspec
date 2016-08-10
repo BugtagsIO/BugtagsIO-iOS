@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "BugtagsIO"
   s.version      = "1.3.0"
-  s.summary      = "The Simplest and Most Efficient Tool for Mobile App Testing. Learn More at https://www.bugtags.io."
+  s.summary      = "Improve your app quality and reliability through In-App bug reporting and crash reporting. Learn more at https://www.bugtags.io."
   s.homepage     = "https://www.bugtags.io"
   s.license      = {
       :type => 'Commercial',

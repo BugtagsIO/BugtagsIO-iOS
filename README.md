@@ -1,26 +1,20 @@
 # Bugtags Bug Reporter for iOS
 
-Bugtags is The Simplest and Most Efficient Tool for Mobile App Testing.
-
-In-App Bug reporting, crash reporting and all context data will be automatically uploaded to the Bugtags Cloud. With all this data, Bug can be fixed efficiently.
+Improve your app quality and reliability through In-App bug reporting and crash reporting.
 
 ## Key Features
 
-- In-App Bug Reporter
+### Bug Reporting
 
-    Report bugs directly from within your app, all context data will be attached automatically, all these only take less than 5 seconds.
+Report bugs directly from within your app, no longer need to switch to a bug reporting application.
 
-- Automatic Crash Reporter
+### Crash Reporting
 
-    Report crashes automatically with all context data, stacktrace will be symbolicated intelligently, all these will help you to fix crash quickly.
+Automatically report and analyze crashes, no longer need to symbolicate stack traces manually.
 
-- In-App User Feedback
+### In-App Feedback
 
-    Users can send their feedback, report bugs directly from within your app, all these will help you improve app quality.
-
-- Web Annotation Extensions
-
-    You can annotate bugs on the web easily by using our powerful web browser extensions. Chrome, Safari, Firefox, Opera already supported.
+Allow your customers to send their feedback directly from within your app by just shaking their mobile devices. 
 
 ## Requirements
 
@@ -32,5 +26,5 @@ Bugtags is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ``` ruby
-pod 'Bugtags', '~> 1.3.0'
+pod 'BugtagsIO', '~> 1.3.0'
 ```
