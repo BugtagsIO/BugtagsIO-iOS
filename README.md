@@ -28,3 +28,11 @@ it, simply add the following line to your Podfile:
 ``` ruby
 pod 'BugtagsIO', '~> 1.3.0'
 ```
+
+# Integration
+
+Please visit [Bugtags iOS integration](https://docs.bugtags.io/start/integrate/ios/).
+
+# Changelogs
+
+Please visit [Bugtags changelogs](https://docs.bugtags.io/changelog/ios.html)
