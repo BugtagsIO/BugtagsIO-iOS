@@ -16,11 +16,11 @@ Automatically report and analyze crashes, no longer need to symbolicate stack tr
 
 Allow your customers to send their feedback directly from within your app by just shaking their mobile devices. 
 
-## Requirements
+# Requirements
 
 Bugtags requires iOS 6.0 and above.
 
-## Installation
+# Installation
 
 Bugtags is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
