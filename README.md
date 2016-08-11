@@ -31,7 +31,7 @@ pod 'BugtagsIO', '~> 1.3.0'
 
 # Integration
 
-Please visit [Bugtags iOS integration](https://docs.bugtags.io/start/integrate/ios/).
+Please visit [Bugtags integration](https://docs.bugtags.io/start/integrate/ios/).
 
 # Changelogs
 
