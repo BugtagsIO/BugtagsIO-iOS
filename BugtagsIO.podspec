@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BugtagsIO"
-  s.version      = "1.3.0"
+  s.version      = "1.3.1"
   s.summary      = "Improve your app quality and reliability through In-App bug reporting and crash reporting. Learn more at https://www.bugtags.io."
   s.homepage     = "https://www.bugtags.io"
   s.license      = {

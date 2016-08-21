@@ -26,7 +26,7 @@ Bugtags is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ``` ruby
-pod 'BugtagsIO', '~> 1.3.0'
+pod 'BugtagsIO', '~> 1.3.1'
 ```
 
 # Integration
